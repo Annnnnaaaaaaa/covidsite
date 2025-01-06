@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Centered Transition</title>
+   <link rel="icon" href="virus.png" type="image/png">
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- Сірий блок зверху -->
+   <div class="header-bar">
+       <!-- Логотип зліва -->
+       <div class="logo" style="background-image: url('banking-system.png');"></div>
+   
+       <!-- Картинки і рядок пошуку справа -->
+       <div class="right-section">
+           <div class="icon" style="background-image: url('virus.png');"></div>
+           <div class="search-box">
+               <input type="text" placeholder="🔍︎ Пошук">
+           </div>
+       </div>
+   </div>
+
+   <div class="page">
+       <!-- Титульна сторінка/Меню -->
+       <div class="menu" id="menu">
+           <div class="menu-content">
+               <h1>Інформаційний сайт про COVID-19</h1>
+               <p>до випускної роботи учениці 11-А класу ДНЛІТ ДМР Тищенко Анни</p>
+               <!-- Заміна кнопки на картинку стрілки -->
+               <img src="right-arrow.png" alt="Start" class="arrow-icon" id="startButton">
+           </div>
+       </div>
+
+       <!-- Основний контент -->
+       <div class="content" id="mainContent">
+           <div class="scrollable-content" id="scrollableContent">
+               <!-- Розділ буде завантажений через JavaScript -->
+           </div>
+       </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
